@@ -36,12 +36,13 @@ jobs:
 
             # Append stub AppAppBar if it is missing to bypass unresolved reference error
             if 'fun AppAppBar' not in content:
-                content += '''
+                          content += """
+          @Composable
+          fun AppAppBar(title: String = "", onBackClick: () -> Unit = {}, actions: @Composable () -> Unit = {}) {
+              // Stub implementation to fix build error
+          }
+          """
 
-@Composable
-fun AppAppBar(title: String = \"\", onBackClick: () -> Unit = {}, actions: @Composable () -> Unit = {}) {
-    // Stub implementation to fix build error
-}
 '''
 
             with open(filepath, 'w', encoding='utf-8') as f:
