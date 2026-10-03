@@ -18,7 +18,7 @@ jobs:
 
     - name: Patch Screens.kt Syntax and Missing References
       run: |
-        python3 -c "
+        cat << 'EOF' > patch_screens.py
         import os, glob, re
 
         for filepath in glob.glob('**/Screens.kt', recursive=True):
@@ -30,24 +30,23 @@ jobs:
                 content = 'import androidx.compose.ui.Modifier\n' + content
             if 'import androidx.compose.runtime.Composable' not in content:
                 content = 'import androidx.compose.runtime.Composable\n' + content
-
+            
             # Fix Float weight function call conflict
             content = re.sub(r'(?<!Modifier\.)\bweight\(', 'Modifier.weight(', content)
-
+            
             # Append stub AppAppBar if it is missing to bypass unresolved reference error
             if 'fun AppAppBar' not in content:
-                          content += """
-          @Composable
-          fun AppAppBar(title: String = "", onBackClick: () -> Unit = {}, actions: @Composable () -> Unit = {}) {
-              // Stub implementation to fix build error
-          }
-          """
-
-'''
+                content += """
+        @Composable
+        fun AppAppBar(title: String = "", onBackClick: () -> Unit = {}, actions: @Composable () -> Unit = {}) {
+            // Stub implementation to fix build error
+        }
+        """
 
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
-        "
+        EOF
+        python3 patch_screens.py
 
     - name: Configure Kotlin Metadata Bypass Script
       run: |
@@ -82,3 +81,4 @@ jobs:
       with:
         name: OfLayn-APK
         path: app/build/outputs/apk/debug/app-debug.apk
+
