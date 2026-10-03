@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OfLayn Transit</string>
+    <string name="independent_notice">Unabhängige App. Keine offizielle BursaKart- oder BURULAŞ-App.</string>
+    <string name="source_unavailable">Aus keiner verifizierten Quelle verfügbar.</string>
+</resources>

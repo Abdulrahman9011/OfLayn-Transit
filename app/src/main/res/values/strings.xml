@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline Transit</string>
+    <string name="independent_notice">Independent app. Not the official BursaKart or BURULAŞ app.</string>
+    <string name="source_unavailable">Not available from a verified source.</string>
+</resources>

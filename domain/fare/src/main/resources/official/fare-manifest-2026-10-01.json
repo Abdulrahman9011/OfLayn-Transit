@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "manifestId": "burulas-fares-2026-10-01",
+  "issuedAt": "2026-10-01T10:49:00Z",
+  "validFrom": "2026-10-01T00:00:00+03:00",
+  "source": {
+    "name": "BURULAŞ Fiyat Tarifeleri",
+    "url": "https://www.burulas.com.tr/bilgi-merkezi/fiyat-tarifeleri",
+    "retrievedAt": "2026-10-01T10:49:00Z",
+    "verification": "OFFICIAL_SOURCE_READ_PENDING_HUMAN_CONFIRMATION"
+  },
+  "tariffs": [
+    {
+      "order": 1,
+      "tariffNo": 0,
+      "name": "ÖZEL RİNG",
+      "fullKurus": 3750,
+      "discountedKurus": 3350,
+      "studentKurus": 950,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 2,
+      "tariffNo": 13,
+      "name": "T1 TRAMVAY, T2 TRAMVAY, T3 TRAMVAY",
+      "fullKurus": 4075,
+      "discountedKurus": 3650,
+      "studentKurus": 1050,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 3,
+      "tariffNo": 2,
+      "name": "BESLEME HAT",
+      "fullKurus": 4375,
+      "discountedKurus": 3900,
+      "studentKurus": 1100,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 4,
+      "tariffNo": 3,
+      "name": "KISA HAT",
+      "fullKurus": 4700,
+      "discountedKurus": 4200,
+      "studentKurus": 1200,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 5,
+      "tariffNo": 1,
+      "name": "BURSARAY",
+      "fullKurus": 5000,
+      "discountedKurus": 4450,
+      "studentKurus": 1250,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 6,
+      "tariffNo": 6,
+      "name": "İLÇE ŞEHİR İÇİ HATLARI (GEMLİK K.BEY M.K.P. İNEGÖL)",
+      "fullKurus": 5000,
+      "discountedKurus": 4450,
+      "studentKurus": 1250,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 7,
+      "tariffNo": 4,
+      "name": "4 NOLU HATLAR",
+      "fullKurus": 5650,
+      "discountedKurus": 5000,
+      "studentKurus": 1400,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 8,
+      "tariffNo": 5,
+      "name": "UZUN HAT",
+      "fullKurus": 6575,
+      "discountedKurus": 5875,
+      "studentKurus": 1650,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 9,
+      "tariffNo": 7,
+      "name": "GEMLİK, KURŞUNLU, KUMLA-GEMLİK, D/20 675 TAHTAKÖPRÜ - İNEGÖL DOĞU GARAJI",
+      "fullKurus": 7500,
+      "discountedKurus": 6675,
+      "studentKurus": 1875,
+      "subscriptionRidesFull": 1,
+      "subscriptionRidesStudent": 1
+    },
+    {
+      "order": 10,
+      "tariffNo": 8,
+      "name": "GEMLİK KÖYLER 635 YENİCEKÖY-ESENKÖY-ÇİFTLİKKÖY",
+      "fullKurus": 8375,
+      "discountedKurus": 7500,
+      "studentKurus": 2100,
+      "subscriptionRidesFull": 2,
+      "subscriptionRidesStudent": 2
+    },
+    {
+      "order": 11,
+      "tariffNo": 9,
+      "name": "642 ÇİTLİ - İNEGÖL DOĞU GARAJI",
+      "fullKurus": 8750,
+      "discountedKurus": 7550,
+      "studentKurus": 2200,
+      "subscriptionRidesFull": 2,
+      "subscriptionRidesStudent": 2
+    },
+    {
+      "order": 12,
+      "tariffNo": 10,
+      "name": "KESTEL KÖYLER, GEMLİK KÖYLER 863 M.KEMALPAŞA-SUUÇTU",
+      "fullKurus": 9375,
+      "discountedKurus": 8350,
+      "studentKurus": 2350,
+      "subscriptionRidesFull": 2,
+      "subscriptionRidesStudent": 2
+    },
+    {
+      "order": 13,
+      "tariffNo": 11,
+      "name": "B37A ÇAYLI-ÜNİVERSİTE İST.",
+      "fullKurus": 9375,
+      "discountedKurus": 8350,
+      "studentKurus": 4700,
+      "subscriptionRidesFull": 2
+    },
+    {
+      "order": 14,
+      "tariffNo": 12,
+      "name": "GECE HATLARI, 1H, 134",
+      "fullKurus": 10000,
+      "discountedKurus": 8875,
+      "studentKurus": 2500,
+      "subscriptionRidesFull": 2,
+      "subscriptionRidesStudent": 2
+    },
+    {
+      "order": 15,
+      "tariffNo": 14,
+      "name": "B37 BADIRGA-ÜNİVERSİTE İST. 876 M.KEMALPAŞA-KOŞUBOĞAZI 401 ORHANGAZİ-GEMLİK",
+      "fullKurus": 11250,
+      "discountedKurus": 10000,
+      "studentKurus": 5650,
+      "subscriptionRidesFull": 2
+    },
+    {
+      "order": 16,
+      "tariffNo": 15,
+      "name": "MERİNOS-GEMLİK, KURŞUNLU, 135 H",
+      "fullKurus": 11875,
+      "discountedKurus": 10650,
+      "studentKurus": 3000,
+      "subscriptionRidesFull": 2,
+      "subscriptionRidesStudent": 2
+    },
+    {
+      "order": 17,
+      "tariffNo": 16,
+      "name": "875 M.KEMALPAŞA-ÇELTİKÇİ 875 D - M.KEMALPAŞA-DURUMTAY 876 Y - M.KEMALPAŞA-YUMURCAKLI",
+      "fullKurus": 11875,
+      "discountedKurus": 10650,
+      "studentKurus": 5950,
+      "subscriptionRidesFull": 2
+    },
+    {
+      "order": 18,
+      "tariffNo": 17,
+      "name": "F3",
+      "fullKurus": 15650,
+      "discountedKurus": 13750,
+      "studentKurus": 3950,
+      "subscriptionRidesFull": 3,
+      "subscriptionRidesStudent": 3
+    },
+    {
+      "order": 19,
+      "tariffNo": 25,
+      "name": "80T TURİZM HATTI",
+      "fullKurus": 15500,
+      "discountedKurus": 15500,
+      "studentKurus": 15500,
+      "subscriptionRidesFull": 3
+    },
+    {
+      "order": 20,
+      "tariffNo": 18,
+      "name": "60/B SOĞUKPINAR - BAĞLI - İVAZPAŞA",
+      "fullKurus": 18150,
+      "discountedKurus": 16250,
+      "studentKurus": 4550,
+      "subscriptionRidesFull": 4,
+      "subscriptionRidesStudent": 4
+    },
+    {
+      "order": 21,
+      "tariffNo": 19,
+      "name": "601 İNEGÖL-KESTEL İST.",
+      "fullKurus": 18750,
+      "discountedKurus": 16700,
+      "studentKurus": 9375,
+      "subscriptionRidesFull": 4
+    },
+    {
+      "order": 22,
+      "tariffNo": 20,
+      "name": "501 YENİŞEHİR-KESTEL 401 ORHANGAZİ-BURSA TERMİNAL",
+      "fullKurus": 20000,
+      "discountedKurus": 17850,
+      "studentKurus": 10000,
+      "subscriptionRidesFull": 4
+    },
+    {
+      "order": 23,
+      "tariffNo": 21,
+      "name": "991, 992 EŞKEL-ÜNİVERSİTE İST.",
+      "fullKurus": 20000,
+      "discountedKurus": 17800,
+      "studentKurus": 5000,
+      "subscriptionRidesFull": 4,
+      "subscriptionRidesStudent": 4
+    },
+    {
+      "order": 24,
+      "tariffNo": 22,
+      "name": "901 KARACABEY-ÜNİV. İST.",
+      "fullKurus": 22500,
+      "discountedKurus": 20050,
+      "studentKurus": 11250,
+      "subscriptionRidesFull": 5
+    },
+    {
+      "order": 25,
+      "tariffNo": 23,
+      "name": "602 İNEGÖL-BURSA TERMİNAL 904 KARACABEY - BURSA TERMİNAL",
+      "fullKurus": 26250,
+      "discountedKurus": 23375,
+      "studentKurus": 13100,
+      "subscriptionRidesFull": 6
+    },
+    {
+      "order": 26,
+      "tariffNo": 24,
+      "name": "801 M.KEMALPAŞA-ÜNİV. İST.",
+      "fullKurus": 27500,
+      "discountedKurus": 24375,
+      "studentKurus": 13750,
+      "subscriptionRidesFull": 6
+    }
+  ],
+  "transferTiers": [
+    {
+      "tier": 1,
+      "fullKurus": 2150,
+      "discountedKurus": 1625,
+      "interpretation": "UNVERIFIED"
+    },
+    {
+      "tier": 0,
+      "fullKurus": 3750,
+      "discountedKurus": 3350,
+      "interpretation": "UNVERIFIED"
+    }
+  ],
+  "transferPolicy": {
+    "windowMinutes": 90,
+    "maxTransfers": 3,
+    "scenarios": [
+      "T1, T2, T3 TRAMVAY HATLARI VE BURSARAY ARASINDAKİ BİNİŞLER",
+      "T1, T2 VE BURSARAY'DAN ÖZEL HALK OTOBÜSLERİNE BİNİŞLER",
+      "ÖZEL HALK OTOBÜSLERİNDEN T1, T2, T3 VE BURSARAY'A BİNİŞLER",
+      "T1, T2 VE BURSARAY'DAN BURULAŞ OTOBÜSLERİNE VEYA ALT İŞLETİCİ OTOBÜSLERİNE BİNİŞLER",
+      "BURULAŞ OTOBÜSLERİNDEN VEYA ALT İŞLETİCİ OTOBÜSLERİNDEN T1, T2, T3 VE BURSARAY'A BİNİŞLER",
+      "BURULAŞ OTOBÜSLERİNDEN VEYA ALT İŞLETİCİ OTOBÜSLERİNDEN BURULAŞ OTOBÜSLERİNE VEYA ALT İŞLETİCİ OTOBÜSLERİNE",
+      "ÖZEL HALK OTOBÜSLERİNDEN BURULAŞ OTOBÜSLERİNE VEYA ALT İŞLETİCİ OTOBÜSLERİNE BİNİŞLER"
+    ]
+  },
+  "refunds": [
+    {
+      "stopsFrom": 1,
+      "stopsTo": 5,
+      "refundKurus": 1200
+    },
+    {
+      "stopsFrom": 6,
+      "stopsTo": 11,
+      "refundKurus": 500
+    }
+  ],
+  "fees": [
+    {
+      "code": "BLANK_CARD",
+      "amountKurus": 19000
+    },
+    {
+      "code": "ANNUAL_VISA",
+      "amountKurus": 25000
+    },
+    {
+      "code": "LOST_CARD_REPLACEMENT",
+      "amountKurus": 6500
+    },
+    {
+      "code": "FIRST_APPLICATION",
+      "amountKurus": 44000
+    },
+    {
+      "code": "ULTRALIGHT_80T",
+      "amountKurus": 15500
+    },
+    {
+      "code": "SUBSCRIPTION_FULL_100",
+      "amountKurus": 412500
+    },
+    {
+      "code": "SUBSCRIPTION_STUDENT_100",
+      "amountKurus": 114000
+    }
+  ],
+  "creditCardFee": {
+    "stepKurus": 500,
+    "feePerStepKurus": 100
+  },
+  "cardRules": [
+    {
+      "cardType": "FULL",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FULL"
+    },
+    {
+      "cardType": "FULL_SUBSCRIPTION",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FULL",
+      "subscription": true,
+      "validityDays": 30
+    },
+    {
+      "cardType": "DISCOUNTED",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "DISCOUNTED"
+    },
+    {
+      "cardType": "STUDENT",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "STUDENT",
+      "validityDays": 365
+    },
+    {
+      "cardType": "STUDENT_SUBSCRIPTION",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "STUDENT",
+      "subscription": true,
+      "validityDays": 30
+    },
+    {
+      "cardType": "GRADUATING_STUDENT",
+      "status": "UNVERIFIED",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "validityDays": 365,
+      "note": "Eligibility is official (Madde 5-B-b, max 1 year). No Mezuna Kalan fare column appears on the 2026-10-01 official tariff page, so no price is assumed."
+    },
+    {
+      "cardType": "TEACHER",
+      "status": "DERIVED",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "DISCOUNTED",
+      "validityDays": 365,
+      "note": "Regulation lists teachers under İndirimli BursaKart; mapping to the İndirimli price column is derived, confirm with BURULAŞ."
+    },
+    {
+      "cardType": "AGE_60_PLUS",
+      "status": "DERIVED",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "DISCOUNTED",
+      "validityDays": 365,
+      "note": "Regulation (Madde 5-B-d) places 60+ under İndirimli BursaKart (not free). Some third-party sites claim it is free; the regulation prevails. Column mapping derived."
+    },
+    {
+      "cardType": "AGE_65_PLUS",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "unlimitedRides": true,
+      "note": "BURULAŞ page: unlimited rides, no vize. Regulation text (Madde 7-c) says 1-year validity for free cards; the newer page prevails. Page is undated."
+    },
+    {
+      "cardType": "AGE_65_PLUS_2022",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FREE",
+      "note": "Free per Madde 5-D-b (muhtaç aylığı). Ride limit not stated in sources read."
+    },
+    {
+      "cardType": "DISABLED",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "ridesPerDay": 10,
+      "note": "BURULAŞ: up to 10 rides/day, vize required."
+    },
+    {
+      "cardType": "DISABLED_COMPANION",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "ridesPerDay": 10
+    },
+    {
+      "cardType": "PRESS",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "unlimitedRides": true
+    },
+    {
+      "cardType": "COAST_GUARD",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "unlimitedRides": true
+    },
+    {
+      "cardType": "PER_DIEM_STAFF",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "unlimitedRides": true
+    },
+    {
+      "cardType": "HONORARY_INSPECTOR",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.burulas.com.tr/bursakartta-yenilik-donemi-basliyor/",
+      "fareColumn": "FREE",
+      "ridesPerDay": 10,
+      "note": "No vize required."
+    },
+    {
+      "cardType": "STATE_ATHLETE",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FREE",
+      "note": "Free per Madde 5-D-f. Ride limit not stated."
+    },
+    {
+      "cardType": "POLICE_GENDARMERIE",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FREE",
+      "note": "Travel with agency ID per Madde 5-D-j. Ride limit not stated."
+    },
+    {
+      "cardType": "MUNICIPAL_POLICE",
+      "status": "OFFICIAL",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "fareColumn": "FREE",
+      "note": "Travel with agency ID per Madde 5-D-k. Ride limit not stated."
+    },
+    {
+      "cardType": "OTHER_FREE",
+      "status": "UNVERIFIED",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "note": "See official 'Ücretsiz Kart Kullanım Listesi' on burulas.com.tr/bursakart; no fare assumed."
+    },
+    {
+      "cardType": "VETERAN_FAMILY",
+      "status": "UNVERIFIED",
+      "sourceUrl": "https://www.bursakart.com.tr/assets/redirect/seyahatKartlariYonetmeligi.pdf",
+      "note": "Not in the regulation text read; see the official free-card list."
+    }
+  ],
+  "notes": [
+    "Transcribed from the official page as displayed 01.10.2026 13:49 (Europe/Istanbul). Human confirmation pending.",
+    "Transfer tier columns are shown on the page without row-level explanation; interpretation is UNVERIFIED and the engine does not price transfers from them."
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oflayn Ulaşım</string>
+    <string name="independent_notice">Bağımsız uygulama. Resmî BursaKart veya BURULAŞ uygulaması değildir.</string>
+    <string name="source_unavailable">Doğrulanmış bir kaynaktan temin edilemiyor.</string>
+</resources>

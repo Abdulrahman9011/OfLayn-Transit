@@ -1,0 +1,43 @@
+# NOTE: versions were chosen from memory and NOT resolved against the repositories.
+# Bump to the latest stable on first Gradle sync.
+[versions]
+kotlin = "2.0.21"
+agp = "8.7.2"
+coroutines = "1.9.0"
+serialization = "1.7.3"
+composeBom = "2024.10.01"
+coreKtx = "1.13.1"
+activityCompose = "1.9.3"
+splash = "1.0.1"
+playLocation = "21.3.0"
+ksp = "2.0.21-1.0.28"
+room = "2.6.1"
+maplibre = "11.11.0"
+lifecycle = "2.8.7"
+
+[libraries]
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playLocation" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+maplibre-android = { module = "org.maplibre.gl:android-sdk", version.ref = "maplibre" }
+# LiteRT-LM: pin an explicit version after first sync (docs recommend latest.release).
+litertlm-android = { module = "com.google.ai.edge.litertlm:litertlm-android", version = "latest.release" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-splash = { module = "androidx.core:core-splashscreen", version.ref = "splash" }
+
+[plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "agp" }

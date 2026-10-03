@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مواصلات OfLayn</string>
+    <string name="independent_notice">تطبيق مستقل. ليس تطبيق BursaKart أو BURULAŞ الرسمي.</string>
+    <string name="source_unavailable">غير متاح من مصدر موثّق.</string>
+</resources>
